@@ -51,6 +51,7 @@ def data():
     connection.close()
     return jsonify(result)
 
+
 # UI route
 @app.route('/')
 def index():
